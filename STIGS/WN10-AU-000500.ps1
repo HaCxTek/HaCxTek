@@ -25,8 +25,7 @@
     PS C:\> .\STIG-ID-WN10-AU-000500.ps1 
 #>
 
-# YOUR CODE GOES HERE# Define the registry path and value
-
+# Define the registry path and value
 $registryPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application"
 $valueName = "MaxSize"
 $valueData = 0x8000  # This is hexadecimal for 32768 (32 KB)
